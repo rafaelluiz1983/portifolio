@@ -40,23 +40,23 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5% 10%;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 
 }
 
 .apresentacao__conteudo {
-    width: 50%px;
+    width: 60%px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 100px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -89,7 +89,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 3px solid var(--cor-tercearia);
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -106,8 +106,8 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 30%;
-    align-self: start;
+    width: 50%;
+    align-self: self-start;
 }
 
 .rodape {
